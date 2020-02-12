@@ -1,8 +1,29 @@
-<html>
+<!DOCTYPE html>
 <head>
-    <title>login form</title>
+    <link rel="stylesheet" href="styles.css">
+    <Title>
+        BusAdvisor
+    </Title>
 </head>
-<body>
-    
-</body>
-</html>
+<Body>
+    <form id="myForm">
+        <h1> LOGIN</h1>
+        <span class="messageLogin" id="myMessage">Username or Email</span>
+        <input type ="text" id="myInput" placeholder ="Username" class ="inputTxtField">
+        <input type ="password" placeholder ="Password" class ="inputTxtField">
+        <input type="submit" value="Enter" class="btn">
+    </form>
+    <script>
+        var x = document.getElementById("myForm");
+        x.addEventListener("focusin", myFocusFunction);
+        x.addEventListener("focusout", myBlurFunction);
+      
+        function myFocusFunction() {
+            document.getElementById("myMessage").style.opacity = "1";
+          }
+      
+        function myBlurFunction() {
+            document.getElementById("myMessage").style.opacity = "";
+          } 
+    </script>
+</Body>
