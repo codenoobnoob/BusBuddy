@@ -1,0 +1,50 @@
+body {
+
+    background: rgb(18,130,187);
+    background: linear-gradient(90deg, rgba(18,130,187,1) 0%, rgba(5,228,236,1) 95%, rgba(0,242,255,1) 100%);
+}
+div {
+    width: 
+}
+.main_window {
+    width: auto;
+    height: 99%;
+    margin: 5px 15% 5px 15%;
+    background: black;
+    z-index: -1;
+    position: relative;
+    border-radius: 5px;
+    opacity: 1;
+    
+
+
+}
+.main_window.top_section {
+    top: 10px;
+    min-width: 100%;
+    height: 50px;
+    text-align: center;
+    border-color: white;
+    border-width: thin;
+    position: absolute;
+    opacity: 1;
+    color: papayawhip;
+    background: inherit;
+
+}
+p.top_section {
+    color: rgb(27, 36, 65);
+    font-size: large;
+    font-family: 'Trebuchet MS';
+    
+
+}
+.menu_bar {
+    position: absolute;
+    min-width: 100%;
+
+}
+.content_page {
+
+
+}
